@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../style1.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+    <aside class="sidebar">
+      <h2>ReWear</h2>
+      <ul>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Listings</a></li>
+        <li><a href="#">Swaps</a></li>
+        <li><a href="#">Orders</a></li>
+        <li><a href="#">Messages</a></li>
+        <li><a href="#">Logout</a></li>
+      </ul>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <h1>Welcome to Your Dashboard</h1>
+        <input type="text" placeholder="Search..." />
+      </header>
+
+      <section class="cards">
+        <div class="card">
+          <h3>Total Listings</h3>
+          <p id="listing-count">12</p>
+        </div>
+        <div class="card">
+          <h3>Swaps</h3>
+          <p id="swaps-count">8</p>
+        </div>
+        <div class="card">
+          <h3>Orders</h3>
+          <p id="orders-count">5</p>
+        </div>
+        <div class="card">
+          <h3>Revenue</h3>
+          <p id="revenue">₹1,250</p>
+        </div>
+      </section>
+
+      <section class="chart-section">
+        <h2>Monthly Swaps</h2>
+        <canvas id="swapChart" height="100"></canvas>
+      </section>
+    </main>
+  </div>
+
+  <script src="../script1.js"></script>
+</body>
+</html>
