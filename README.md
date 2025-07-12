@@ -35,3 +35,38 @@ Built with ❤️ at a hackathon to promote eco-conscious living and reduce fash
 
 ## 📂 Folder Structure
 
+rewear-community-clothing-exchange/
+├── models/ # Mongoose models
+├── public/ # Static assets
+├── routes/ # Express routes
+├── views/ # HTML templates (if using ejs)
+├── server.js # Main backend server
+
+Install Dependencies
+npm install
+npm start
+
+ Future Enhancements
+📸 Upload clothing images
+
+📍 Location-based recommendations
+
+🔐 Password hashing and OTP verification
+
+📲 Progressive Web App (PWA) support
+
+👥 Team ReWear
+Shiv Trivedi (Backend & Integration)
+Bhangale Vandan (Backend & Integration)
+Jadav Krish (Frontend developer)
+Rana Jayvir (Frontend developer)
+
+[Your Team Members & Roles]
+
+📜 License
+This project is open source and free to use under the MIT License.
+
+💚 Made with a mission to reuse, reduce, and rewear!
+yaml
+Copy
+Edit
