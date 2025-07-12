@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="min-h-screen bg-gray-100">
+
+    <!-- Navigation placeholder -->
+    <nav class="bg-white shadow mb-4 p-4">
+        <div class="container mx-auto">
+            <a href="/" class="text-black-600 font-bold text-xl">Cloth Exchange Shop</a>
+        </div>
+    </nav>
+
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-4xl font-bold text-black mb-8 text-center">Login</h1>
+        <div class="flex justify-center">
+
+            <!-- login page starts here -->
+            <form action="/login" method="POST" class="w-full max-w-md">
+
+                <!-- Error messages placeholder -->
+                <!-- Example:
+        <div class="bg-red-100 text-red-700 p-2 mb-4 rounded">
+          Invalid email or password.
+        </div>
+        -->
+
+                <input type="email" name="email" placeholder="Enter your email" required autocomplete="email"
+                    class="w-full px-4 py-2 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500" />
+
+                <input type="password" name="password" placeholder="Enter your password" required
+                    autocomplete="current-password"
+                    class="w-full px-4 py-2 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500" />
+
+                <div class="flex justify-center">
+                    <input type="submit" value="Login"
+                        class="bg-black hover:bg-gray-800 text-white font-semibold py-2 px-4 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer" />
+
+                </div>
+            </form>
+    </div>
+    </div>
+</body>
+</html>

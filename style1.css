@@ -1,0 +1,103 @@
+:root {
+  --blue: #0081a7;
+  --cyan: #00afb9;
+  --cream: #fdfcdc;
+  --peach: #fed9b7;
+  --coral: #f07167;
+  --white: #ffffff;
+  --gray: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--gray);
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+.sidebar {
+  width: 220px;
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 20px;
+}
+
+.sidebar h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  margin: 20px 0;
+}
+
+.sidebar ul li a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 16px;
+}
+.main-content {
+  flex: 1;
+  padding: 30px;
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.topbar input {
+  padding: 8px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid var(--blue);
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.card {
+  flex: 1;
+  min-width: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--white);
+  border-left: 8px solid var(--cyan);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  font-size: 16px;
+  color: var(--blue);
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 20px;
+  color: var(--coral);
+  font-weight: bold;
+}
+.chart-section {
+  background: var(--white);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
