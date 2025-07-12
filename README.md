@@ -10,7 +10,7 @@ Built with ❤️ at a hackathon to promote eco-conscious living and reduce fash
 
 ## 🌍 Live Demo
 
-[🔗 Link to hosted site (if available)](https://vandan-bhangale.github.io/Rewear-community-clothing-exchange/)
+(https://vandan-bhangale.github.io/Rewear-community-clothing-exchange/)
 
 ---
 
